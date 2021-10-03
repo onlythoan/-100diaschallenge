@@ -14,7 +14,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
 }
-
+/* solucion para no usar br*/
 p span{
     display: block;
 }
@@ -37,32 +37,36 @@ p span{
     background: #fff;
 
 }
-
-.close {
+/*boton close*/
+.close{
     position: absolute;
     right: 32px;
     top: 32px;
     width: 32px;
     height: 32px;
     opacity: 0.3;
-  }
-  .close:hover {
+}
+
+.close:hover{
     opacity: 1;
-  }
-  .close:before, .close:after {
+}
+
+.close:before, .close:after{
     position: absolute;
     left: 15px;
     content: ' ';
     height: 23px;
     width: 2px;
     background-color: #333;
-  }
-  .close:before {
+}
+
+.close:before{
     transform: rotate(45deg);
-  }
-  .close:after {
+}
+
+.close:after{
     transform: rotate(-45deg);
-  }
+}
 
 .container .imgpng{
     position: absolute;
@@ -98,8 +102,7 @@ p span{
     color: #fff;
     font-size: 15px;
 }
-
-
+/* tarjeta 2*/
 .container .card-2{
     position: relative;
     margin: 100px auto;
